@@ -18,4 +18,11 @@ public class RectangleTest {
     public void shouldBeZero() {
         assertEquals(0,rectangle.calculateArea(0,2));
     }
+
+    @Test
+    @DisplayName("calculate area for length 2 and breadth 3")
+    public void shouldBeSixWhenLengthTwoAndBreadthThree() {
+        assertEquals(6,rectangle.calculateArea(2,3));
+    }
+
 }
