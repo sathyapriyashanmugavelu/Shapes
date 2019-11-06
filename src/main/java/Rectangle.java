@@ -1,5 +1,9 @@
 class Rectangle {
-    public int calculateArea(int length, int breadth) {
+    int calculateArea(int length, int breadth) {
         return length * breadth;
+    }
+
+    int perimeter(int length, int breadth){
+        return 0;
     }
 }
