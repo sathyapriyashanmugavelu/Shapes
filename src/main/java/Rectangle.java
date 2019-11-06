@@ -3,7 +3,7 @@ class Rectangle {
         return length * breadth;
     }
 
-    int perimeter(int length, int breadth){
-        return 0;
+    int perimeter(int length, int breadth) {
+        return 2 * (length + breadth);
     }
 }

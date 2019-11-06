@@ -9,9 +9,7 @@ public class RectangleTest {
     @DisplayName("Should area be 0 for length 0 and breadth 2")
     void shouldBeZero() {
         Rectangle rectangle = new Rectangle();//Arrange
-
         int actualArea = rectangle.calculateArea(0, 2); //Action
-
         assertEquals(0, actualArea); //Assertion
     }
 
@@ -29,4 +27,13 @@ public class RectangleTest {
         int actualArea = rectangle.perimeter(0, 0); //Action
         assertEquals(0, actualArea); //Assertion
     }
+
+    @Test
+    @DisplayName("Should perimeter be 0 for length 0 and breadth 0")
+    void shouldPerimeterBeTenWhenLengthTwoAndBreadthThree() {
+        Rectangle rectangle = new Rectangle();//Arrange
+        int actualArea = rectangle.perimeter(2, 3); //Action
+        assertEquals(10, actualArea); //Assertion
+    }
+
 }
