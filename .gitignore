@@ -2,4 +2,5 @@ build/
 .idea/
 .gradle/
 out/
+.DS_Store
 #Gradle
