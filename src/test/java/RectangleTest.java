@@ -9,7 +9,7 @@ public class RectangleTest {
     @DisplayName("Should area be 0 for length 0 and breadth 2")
     void shouldBeZero() {
         Rectangle rectangle = new Rectangle();//Arrange
-        int actualArea = rectangle.calculateArea(0, 2); //Action
+        int actualArea = rectangle.area(0, 2); //Action
         assertEquals(0, actualArea); //Assertion
     }
 
@@ -17,7 +17,7 @@ public class RectangleTest {
     @DisplayName("calculate area for length 2 and breadth 3")
     void shouldBeSixWhenLengthTwoAndBreadthThree() {
         Rectangle rectangle = new Rectangle();
-        assertEquals(6, rectangle.calculateArea(2, 3));
+        assertEquals(6, rectangle.area(2, 3));
     }
 
     @Test

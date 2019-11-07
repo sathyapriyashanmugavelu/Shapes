@@ -1,5 +1,5 @@
 class Rectangle {
-    int calculateArea(int length, int breadth) {
+    int area(int length, int breadth) {
         return length * breadth;
     }
 
