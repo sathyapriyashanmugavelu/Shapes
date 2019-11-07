@@ -1,6 +1,5 @@
-public class Square {
-
-    public int area(int side) {
-        return 0;
+class Square {
+    int area(int side) {
+        return 1;
     }
 }

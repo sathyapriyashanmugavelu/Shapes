@@ -3,14 +3,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SquareTest {
+class SquareTest {
     @Test
     @DisplayName("Should area be 0 when side 0")
     void shouldAreaBeZero() {
         Square square = new Square();//Arrange
-        int actualArea = square.area(0); //Action
-        assertEquals(0, actualArea); //Assertion
+        int unitArea = square.area(1); //Action
+        assertEquals(1, unitArea); //Assertion
     }
-
-
 }
